@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="leftcontainer">
+        <div class="bannerdiv">
+            <div class="banner">
+                <img src="/assets/llama.png" alt="#">
+                <div class="llama">Llama</div>
+            </div>
+        </div>
+        <div class="creditdiv">
+            <span>Photo by Halie West on Unsplash</span>
+        </div>
+    </div>
+    <div class="rightcontainer">
+        <div class="rdiv1">
+            <p>
+                This is not a real online service! You know you need something like this in your life to help you
+                realize your deepest dreams.
+                Sign up now to get started.
+                <br><br>
+                You <em>know</em> you want to.
+            </p>
+
+        </div>
+        <form action="#" method="post" onsubmit="check()">
+            <div class="rdiv2">
+                <h2>Let's do this!</h2>
+                <div class="formcontainer">
+    
+                    <div class="formleft">
+                        <label for="fname">FIRST NAME</label><br>
+                        <input type="text" id="fname" name="fname" required><br><br>
+    
+                        <label for="mail">EMAIL</label><br>
+                        <input type="email" name="mail" id="mail" required><br><br>
+    
+                        <label for="password">PASSWORD</label><br>
+                        <input type="password" name="password" id="password" required><br>
+                        <span class="error">test</span>
+    
+    
+                    </div>
+                    <div class="formright">
+                        <label for="fname">LAST NAME</label><br>
+                        <input type="text" id="lname" name="lname" required><br><br>
+    
+                        <label for="phone">PHONE NUMBER</label><br>
+                        <input type="tel" name="phone" id="phone" required><br><br>
+    
+                        <label for="cpassword">CONFIRM PASSWORD</label><br>
+                        <input type="password" name="cpassword" required id="cpassword"><br><br>
+                    </div>
+    
+                </div>
+    
+            </div>
+            <div class="rdiv3">
+                <button type="submit" class="submitBtn">Create Account</button>
+                <p>
+                    Already have an account? <a href="#">Log in</a>
+                </p>
+            </div>
+        </form>
+    </div>
+    </div>
+    <script src="formscript.js"></script>
+</body>
+
+</html>

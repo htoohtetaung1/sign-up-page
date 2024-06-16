@@ -1,0 +1,139 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+    padding: 0;
+    background-color: rgb(247, 255, 248);
+    display: flex;
+}
+.leftcontainer{
+    flex: 1;
+    background-image:url(green.jpg);
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+}
+.rightcontainer{
+    flex: 2;
+}
+.leftcontainer, .rightcontainer {
+    height: 100vh;
+}
+
+
+.bannerdiv, .creditdiv {
+    flex:1;
+    color: rgb(231, 231, 231);
+}
+.creditdiv {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    font-size: 1.5svh;
+    padding: 5px;
+}
+.bannerdiv {
+    display: flex;
+    flex-direction: column;    
+    justify-content: center;
+    font-size: 6svh;
+}
+.banner {
+    text-align: center;
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+.llama {
+    display: inline-block;
+    height: 100%;
+    vertical-align:middle;
+}
+img {
+    height: 13svh;
+}
+
+.rightcontainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.rdiv1, .rdiv2, .rdiv3 {
+    flex:1;
+    padding-left: 10%;
+    padding-right: 12%;
+    padding-bottom: 10px;
+}
+
+.rdiv1 {
+    text-align: justify;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    font-weight: 550;
+    max-height: 10%;
+}
+
+.rdiv2 {
+    background-color: #ffffff;
+    box-shadow: 2px 3px 5px rgba(0, 0, 0, 0.23);
+}
+.rdiv3 {
+    margin-top: 30px;
+}
+
+.formcontainer {
+    display: flex;
+    gap: 50px;
+}
+label {
+    font-size: 9px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.rdiv3 button {
+    padding: 8px 20px;
+    font-weight: bold;
+    border: none;
+    color: white;
+    background-color: #62975d;
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.154);
+}
+.rdiv3 p {
+    font-size: 10px;
+}
+
+.error {
+    padding: none;
+    margin: none;
+    font-size: 9px;
+    color: red;
+}
+
+
+input {
+    outline: none;
+    border: 2px black solid;
+    border-radius: 3px;
+}
+
+input:focus {
+    border: 2px rgb(45, 111, 60) solid;
+    outline:none;
+}
+
+
+#password:invalid, #cpassword:invalid {
+    border: 2px red solid;
+}
+
+button:disabled{
+    opacity: 0.5;
+}
+
+
+
+
+
