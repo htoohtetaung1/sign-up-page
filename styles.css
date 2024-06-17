@@ -73,6 +73,7 @@ img {
     flex-direction: column;
     justify-content: end;
     font-weight: 550;
+    min-height: fit-content;
     max-height: 10%;
 }
 
